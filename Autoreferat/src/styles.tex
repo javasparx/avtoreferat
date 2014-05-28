@@ -1,0 +1,64 @@
+%%% Page Layout %%%
+%\geometry{a4paper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm}
+
+%%% Fonts %%%
+% \renewcommand{\rmdefault}{ftm} % Times New Roman
+\fontencoding{T2A}
+\fontfamily{garamond}
+%   \fontseries{m}
+%   \fontshape{it}
+% \fontsize{14}{15}
+%   \selectfont
+
+%%% Alignment and transfers %%%
+\sloppy					% Get rid of the overflow
+\clubpenalty=10000		% Forbid a page break after the first line of a paragraph
+\widowpenalty=10000		% Forbid a page break after the last line of the paragraph
+
+%%% Bibliography %%%
+% \bibliographystyle{plain}
+
+%%% Images %%%
+\graphicspath{{images/}} % ref to images dir
+
+%%% Color of hyperlinks %%%
+% \definecolor{dark-red}{rgb}{0.4,0.15,0.15}
+% \definecolor{dark-blue}{rgb}{0.15,0.15,0.4}
+% \definecolor{medium-blue}{rgb}{0,0,0.5}
+% \hypersetup{
+%     colorlinks, linkcolor={dark-blue},
+%     citecolor={dark-blue}, urlcolor={medium-blue}
+% }
+
+% Name style for List of Examples and impl %
+% \newcommand{\listexamplename}{List of Examples}
+% \newlistof{example}{exp}{\listexamplename}
+% \newcommand{\example}[1]{%
+% 	\refstepcounter{example}
+% 	\par\noindent\textbf{Example \theexample. } #1
+% 	\addcontentsline{exp}{example}
+% 	{\protect\numberline{
+% 		\textbf{\thechapter.\theexample}}  #1
+% 	}\par
+% }
+
+%Definition
+% \newtheorem{defn}{Definition}
+
+% no number starting from subsections downwards either in the document and in the TOC
+\setcounter{secnumdepth}{1}
+\setcounter{tocdepth}{3} 
+
+% \newcommand{\listdefinitionname}{List of Definition}
+% \newlistof{definition}{defi}{\listdefinitionname}
+% \newcommand{\definition}[1]{%
+% 	\refstepcounter{definition}
+% 	\par{Definition \thedefinition. #1}
+% 	\addcontentsline{defi}{definition}
+% 	{\protect\numberline{
+% 		\thechapter.\thedefinition}#1
+% 	}\par
+% } 
+
+%%% Contents %%%
+% \renewcommand{\cftchapdotsep}{\cftdotsep}

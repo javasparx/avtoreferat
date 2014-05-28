@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Sat May 17 18:17:38 UZT 2014
+markTmpDer=true
+builderNum=2
+outputDir=out
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=main.tex
+outputFile=autoreferat.pdf
+langSpell=ru
+markDer=true
+srcDir=src
